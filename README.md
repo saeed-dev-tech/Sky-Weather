@@ -2,6 +2,11 @@
 
 A sleek, modern one-screen weather application for Android built with **Kotlin**, **Jetpack Compose**, and **Material Design 3**.
 
+<div align="center">
+  <img src="screenshots/app_preview.png" alt="SkyCast Weather App Preview" width="340" style="border-radius: 20px; box-shadow: 0 10px 30px rgba(0,0,0,0.15);" />
+  <p><em>Real-time temperature, humidity gauge, hourly forecast, and 5-day visual temperature range</em></p>
+</div>
+
 ---
 
 ## Features
@@ -12,10 +17,10 @@ A sleek, modern one-screen weather application for Android built with **Kotlin**
   - Daily High / Low temperatures and "Feels like" metrics.
   - Animated dynamic atmospheric background canvas that reflects real-time weather conditions.
 
-- **Humidity**:
-  - Prominent percentage display.
+- **Dedicated Humidity Gauge**:
+  - Large humidity percentage readout.
   - Comfort index indicator (*Dry Air*, *Optimal & Comfortable (40–60%)*, *Moderate Moisture*, *High Humidity*).
-  - Visual progress bar.
+  - Visual progress gauge bar with status classifications.
 
 - **5-Day Weather Forecast**:
   - 5-day cards with day names, dates, weather glyphs, and precipitation probabilities.
@@ -55,8 +60,8 @@ A sleek, modern one-screen weather application for Android built with **Kotlin**
 
 1. Clone this repository:
    ```bash
-   git clone <your-repo-url>
-   cd <repo-name>
+   git clone https://github.com/saeed-dev-tech/skycast-weather.git
+   cd skycast-weather
    ```
 2. Open the project in **Android Studio (Ladybug or newer)**.
 3. Sync Gradle and run the app on an Android device or emulator.
